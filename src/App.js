@@ -1,23 +1,28 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="app__header">
+        <img
+          className="app__header-image"
+          src="https://www.instagram.com/static/images/web/mobile_nav_type_logo.png/735145cfe0a4.png"
+          alt=""
+        />
+      </div>
+
+      <h1>HELLO LET'S BUILD AN INSTAGRAM CLONE APP WITH REACT ! </h1>
+
+
+
+
+
+      {/* Header */}
+
+      {/*Posts*/}
+      {/*Posts*/}
+
     </div>
   );
 }
