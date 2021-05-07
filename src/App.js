@@ -7,7 +7,7 @@ import { db } from './firebase';
 function App() {
   const [posts, setPosts] = useState([
     
-
+ 
   ]);
 
   // useEffect runs a piece of code based on a specific condition
